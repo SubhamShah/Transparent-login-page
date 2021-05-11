@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background:url(pexelre.jpg);
+	background-size:cover;
+	height: 100%;
+}
+.box{
+	color:white;
+	position: fixed;
+	margin-left: 40%;
+	margin-top: 15%;
+
+}
+.box h2{
+	padding-bottom: 8px;
+	margin: 20px;
+	border-bottom: 3px solid #33FFB5;
+	font-size: 30px;
+}
+
+.box .login{
+	margin: 20px;
+	border-bottom: 2px solid #33FFB5;
+}
+
+.box .login input{
+	padding: 7px;
+	border: none;
+	outline: none;
+	background: none;
+	color: #33FFB5;
+}
+::placeholder{
+	color: #33FFB5;
+}
+
+.button{
+	margin:15px 20px ;
+	padding: 5px;
+	width: 80px;
+	cursor: pointer;
+	border: 2px solid #33FFB5;
+	border-radius: 8px;
+	background: none;
+	color: white;
+	font-size: 15px;
+	font-weight:bold;
+}
+
+
+.container{
+	color:white;
+	position: fixed;
+	margin-left: 30%;
+	margin-top: 15%;
+}
+
+.form-floating{
+	width: 400px;
+	margin-left: 20px;
+}
+.container .form-floating input{
+	background: none;
+	color: #33FFB5;
+	border: 2px solid #33FFB5;
+}
+label{
+	color: white;
+}
